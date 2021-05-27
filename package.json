@@ -1,0 +1,20 @@
+{
+  "name": "automation_workshop",
+  "version": "1.0.0",
+  "description": "Automation project with testcafe",
+  "main": "index.js",
+  "scripts": {
+    "test_login": "testcafe chrome ./SWAGLABSv1/tests/Login_test.js",
+    "test_shoppingCart": "testcafe chrome ./SWAGLABSv1/tests/ShoppingCart_test.js",
+    "test_checkout": "testcafe chrome ./SWAGLABSv1/tests/Checkout_test.js"
+  },
+  "keywords": [],
+  "author": "Diana Lucia Hernandez Malerva",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.14.2"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
